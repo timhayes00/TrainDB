@@ -16,8 +16,20 @@
 <body>
 
   <!-- Script -->
-
+  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
   <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD6h0qXvbgO4T5eMoBmyutnsMeF0sjud20",
+      authDomain: "traindb-6cb3f.firebaseapp.com",
+      databaseURL: "https://traindb-6cb3f.firebaseio.com",
+      projectId: "traindb-6cb3f",
+      storageBucket: "traindb-6cb3f.appspot.com",
+      messagingSenderId: "129050914529"
+    };
+    firebase.initializeApp(config);
+
+
     // Assume the following situations.
 
     // (TEST 1)
